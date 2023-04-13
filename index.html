@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+    />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+    <!-- TOP CONTENT -->
+    <section
+      class="flex flex-col items-center justify-center gap-8 bg-no-repeat mb-40 pt-16"
+      style="background-image: url('./images/bg-header-desktop.png')"
+    >
+      <img
+        src="./images/logo.svg"
+        alt=""
+        class="sm:h-50 sm:w-50 mx-auto my-14"
+      />
+      <h1 class="font-bold md:text-5xl sm:text-md text-darkGrayishBlue">
+        A history of everything you copy
+      </h1>
+      <p class="font-thin text-grayishBlue text-2xl px-60 text-center">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </p>
+      <div
+        class="flex md:flex-row flex-col md:justify-between justify-center gap-4"
+      >
+        <button
+          class="text-white text-xl rounded-full shadow-lg px-8 p-4 bg-strongCyan md:hover:bg-opacity-70 duration-500"
+        >
+          Download for IOS
+        </button>
+        <button
+          class="text-white text-xl rounded-full shadow-lg px-8 p-4 bg-lightBlue md:hover:bg-opacity-70 duration-500"
+        >
+          Download for Mac
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
