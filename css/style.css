@@ -647,6 +647,10 @@ video {
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
