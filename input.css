@@ -3,12 +3,7 @@
 @tailwind utilities;
 
 .section-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 72rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  text-align: center;
+  @apply max-w-6xl mx-auto text-center;
 }
 .section-content {
   margin-left: auto;
