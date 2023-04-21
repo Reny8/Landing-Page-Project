@@ -35,3 +35,9 @@
   color: hsl(201 11% 66% / var(--tw-text-opacity));
   @apply mb-10 md:text-2xl text-xl;
 }
+.social-icon {
+  @apply hover:fill-strongCyan duration-500;
+}
+.footer-link {
+  @apply hover:text-strongCyan duration-500;
+}
