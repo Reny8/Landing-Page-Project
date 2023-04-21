@@ -26,14 +26,9 @@
   @apply max-w-6xl mx-auto text-center;
 }
 .section-content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 48rem;
-  text-align: center;
-  line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
-  @apply mb-10 md:text-2xl text-xl;
+  @apply mb-10 md:text-2xl text-xl text-center mx-auto leading-9 max-w-3xl;
 }
 .social-icon {
   @apply hover:fill-strongCyan duration-500;
