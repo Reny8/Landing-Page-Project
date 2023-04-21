@@ -16,6 +16,12 @@
 .list-body {
   @apply text-grayishBlue mb-10;
 }
+.supercharge-body {
+  @apply flex flex-col justify-center items-center md:gap-6 max-w-xs;
+}
+.supercharge-title {
+  @apply font-bold mb-2 text-darkGrayishBlue md:text-2xl;
+}
 .section-container {
   @apply max-w-6xl mx-auto text-center;
 }
