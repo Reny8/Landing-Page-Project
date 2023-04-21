@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+h1.section-title {
+  @apply font-bold md:text-5xl text-4xl mb-6 text-darkGrayishBlue;
+}
+
 .section-container {
   @apply max-w-6xl mx-auto text-center;
 }
