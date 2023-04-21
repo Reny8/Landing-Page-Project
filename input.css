@@ -41,3 +41,7 @@
 .footer-link {
   @apply hover:text-strongCyan duration-500;
 }
+
+.btn {
+  @apply text-white text-xl rounded-full shadow-lg px-8 p-4 md:hover:bg-opacity-70 duration-500;
+}
