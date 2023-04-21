@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-h1.section-title {
+.section-title {
   @apply font-bold md:text-5xl text-4xl mb-6 text-darkGrayishBlue;
 }
 
+.company-icons {
+  @apply flex md:flex-row flex-col md:justify-between items-center space-y-10 md:space-y-0;
+}
+.list-title {
+  @apply font-bold mb-2 text-darkGrayishBlue;
+}
+
+.list-body {
+  @apply text-grayishBlue mb-10;
+}
 .section-container {
   @apply max-w-6xl mx-auto text-center;
 }
@@ -17,4 +27,5 @@ h1.section-title {
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
+  @apply mb-10 md:text-2xl text-xl;
 }
